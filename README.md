@@ -1,16 +1,65 @@
-# React + Vite
+# MailPilot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## AI-Powered Mail Web Application
 
-Currently, two official plugins are available:
+MailPilot is a web-based email client that integrates real email services with a natural-language AI assistant. It allows users to manage inbox and sent emails, compose and send messages, search emails, and perform common email actions using simple commands.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎥 Demo Video
 
-## React Compiler
+[Watch the MailPilot Demo](https://drive.google.com/file/d/10ZlY7V5-NAmTw3KBjLjQosGmf1UkdYLf/view?usp=sharing)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* Real email integration using MailSlurp
+* Inbox and Sent email management
+* Email detail view
+* Compose and send emails
+* Reply functionality
+* AI-assisted email composition
+* Natural-language email search
+* Unread email filtering
+* Latest email access
+* UI control through natural-language commands
+* Automatic email synchronization
+* Confirmation before sending emails
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+* React
+* Vite
+* JavaScript
+* Node.js
+* Express.js
+* MailSlurp API
+* CSS
+
+## 🏗️ Architecture
+
+```text
+React Frontend
+      ↓
+Express Backend
+      ↓
+MailSlurp API
+      ↓
+Email Service
+```
+
+The frontend provides the email interface and AI assistant. The Express backend communicates with MailSlurp, while API credentials are stored securely in environment variables.
+
+## 🔐 Security
+
+API credentials are stored in `.env` files and excluded from Git using `.gitignore`.
+
+## 🚀 Future Improvements
+
+* LLM-powered conversational assistant
+* Advanced email filtering
+* Thread-based conversations
+* Rich email formatting
+* Cloud deployment
+* Additional email provider integrations
+
+## 👩‍💻 Project
+
+**MailPilot — AI-Powered Mail Web Application**
